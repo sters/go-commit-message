@@ -1,4 +1,4 @@
-module github.com/sters/go-semantic-commit-message
+module github.com/sters/go-commit-message
 
 go 1.20
 
