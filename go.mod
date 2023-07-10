@@ -1,3 +1,3 @@
-module github.com/sters/go-project-boilerplate
+module github.com/sters/go-semantic-commit-message
 
-go 1.19
+go 1.20

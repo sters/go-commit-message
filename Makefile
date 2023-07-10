@@ -7,7 +7,7 @@ TOOLS=$(shell cat tools/tools.go | egrep '^\s_ '  | awk '{ print $$2 }')
 .PHONY: bootstrap-tools
 bootstrap-tools:
 	@echo "Installing: " $(TOOLS)
-	@go install $(TOOLS)
+	@cd tools && go install $(TOOLS)
 
 .PHONY: run
 run:

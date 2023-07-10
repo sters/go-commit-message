@@ -1,6 +1,6 @@
 module github.com/sters/go-project-boilerplate/tools
 
-go 1.19
+go 1.20
 
 require github.com/golangci/golangci-lint v1.51.1
 
